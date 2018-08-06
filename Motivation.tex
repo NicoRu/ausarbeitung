@@ -1,0 +1,72 @@
+%%-------------------------------------------------------------------
+
+\chapter {Motivation}
+
+Mit der stetig wachsenden Komponentenzahl in modernen Rechensystemen geht eine
+Steigerung der Ausfallwahrscheinlichkeit und Fehleranfälligkeit der Komponenten einher.
+Eine Möglichkeit die Verlässlichkeit von Rechensystemen zu steigern, ist die Vermeidung von
+Fehlern während der Berechnung. Klassische Methoden der Fehlertoleranz wie Checkpoints oder
+Redundanz sind allerdings in modernen Systemen aufgrund der Vielzahl der Komponenten
+ineffizient und zu teuer. Deshalb ist ein alternativer Ansatz der Verzicht auf die Fehlervermeidung
+und auf die Erkennung von Fehlern zu setzen.
+Man unterscheidet hierbei zwischen transienten Fehlern (soft errors) und intransienten Fehlern
+(hard errors). Soft errors sind von zufälliger und temporärer Natur, das bedeutet, dass ein soft
+error während einer Berechnung zu einem fehlerhaftem Ergebnis führen kann, bei Wiederholung
+der Berechnung wird dieser Fehler wahrscheinlich jedoch nicht auftreten.
+Fehler die dauerhaft existieren, werden als hard errors bezeichnet. Beispiele für hard errors sind
+Hardware Ausfälle, denn ein Rechensystem würde unter diesen Umständen dauerhaft falsche
+Ergebnisse liefern.
+Zurückzuführen sind transiente Fehler auf kosmische Partikel oder elektromagnetische Störfelder.
+
+
+
+Diese verursachen unter anderem ungewollte Bitflips in den Registern des Prozessors oder in den Speicherzellen des Hauptspeichers. Das Systeme immer häufiger von transienten Fehlern betroffen sind, ist im wesentlichen auf die niedrigeren Versorgungsspannungen zurückzuführen.
+Hintergrund dafür ist der Wunsch nach energieeffizienten Produkten aber auch die zunehmende Integrationsdichte.
+
+Neben der Verfälschung von Berechnungsergebnissen und dem Hervorrufen von kritischen
+Systemfehlern, die das System zum Absturz bringen, kann ein transienter Fehler auch folgenlos
+bleiben. Um Computersysteme vor solchen Fehlern zu schützen, gibt es mehrere Ansätze, wie die
+Redundanz.
+Zum Einen gibt es die temporale Rendundanz, bei der eine Berechnung auf dem gleichen System
+mehrmals ausgeführt wird. Das berechnete Ergebnis wird dann verglichen und falsche Ergebnisse
+werden erkannt. Allerdings bedeutet das, dass die Kosten (Zeit) sich mindestens verdoppeln.
+Räumliche Redundanz wird durch die parallele Ausführung auf mehreren (identischen)
+Rechensystemen realisiert. Beispielsweise benutzt das Space Shuttle fünf Computersysteme, um
+so per Mehrheitsentscheid bestimmen zu können. Die (Hardware-) Kosten steigen hierbei extrem
+an, allerdings ist es im Gegensatz zur temporalen Redundanz möglich, nicht nur soft errors
+sondern auch hard errors erkannt werden.
+Eine Alternative zur teuren Redundanz, stellt eine leichtgewichtige Methode zur Erkennung von
+aufgetretenen Fehlern, wie die Symptom-basierte Fehlererkennung, dar.
+Die Grundidee ist die Erkennung von Fehlern mittels Abweichungen vom üblichen
+Ausführungsverhalten. Das Verhalten wird mittels Metriken, sogenannten Performance Counter,
+wie z.B. die Anzahl an TLB Misses, charakterisiert. Zur Festlegung des normalen
+Ausführungsverhalten wird eine Datenbank mit Werten verschiedener Ausführungsmetriken von
+korrekten Ausführungen angelegt.
+Daraufhin werden Ausführungen gezielt mit Fehlern injiziert um die Metriken auf signifikante
+Abweichungen zu untersuchen. Zur Laufzeit werden dann die aktuellen Werte mit der Datenbank
+verglichen. Sofern die Abweichungen einer oder mehrerer Metriken einen festgesetzten Grenzwert
+überschreiten könnte dies als Indikator für diesen Fehler gelten.
+Ziel dieser Bachelorarbeit ist die Untersuchung der Anwendbarkeit der Symptombasierten
+Fehlererkennung. Dabei wird gezeigt ob das Auftreten von Fehlern oder sogar die aufgetretene
+Fehler(-art) bestimmt werden können.
+
+\section{Zielsetzung}
+
+Ziel dieser Bachelorarbeit ist die Untersuchung der Anwendbarkeit der Symptombasierten
+Fehlererkennung.
+Die Grundidee ist die Erkennung von Fehlern mittels Abweichungen vom üblichen
+Ausführungsverhalten. Das Verhalten wird mittels Metriken, sogenannten Performance Counter,
+wie z.B. die Anzahl an TLB Misses, charakterisiert. Zur Festlegung des normalen
+Ausführungsverhalten wird eine Datenbank mit Werten verschiedener Ausführungsmetriken von
+korrekten Ausführungen angelegt.
+Daraufhin werden Ausführungen gezielt mit Fehlern injiziert um die Metriken auf signifikante
+Abweichungen zu untersuchen. Zur Laufzeit werden dann die aktuellen Werte mit der Datenbank
+verglichen. Sofern die Abweichungen einer oder mehrerer Metriken einen festgesetzten Grenzwert
+überschreiten könnte dies als Indikator für diesen Fehler gelten.
+Dabei wird gezeigt ob das Auftreten von Fehlern oder sogar die aufgetretene
+Fehler(-art) bestimmt werden können.
+
+
+\section{State of the Art}
+
+noch hinzuzufügen , änderung

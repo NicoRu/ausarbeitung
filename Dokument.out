@@ -1,0 +1,35 @@
+\BOOKMARK [0][-]{Contents.0}{Inhaltsverzeichnis}{}% 1
+\BOOKMARK [0][-]{chapter.1}{1 Motivation}{}% 2
+\BOOKMARK [1][-]{section.1.1}{1.1 Zielsetzung}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{1.2 State of the Art}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{2 Material und Methoden}{}% 5
+\BOOKMARK [1][-]{section.2.1}{2.1 Testplattform}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 HPC Cluster Server}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Multicore Computer}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{2.2 Metriken als Symptome}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Hardware Perfomance Counter}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Perfomance Application Programming Interface}{section.2.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 Physikalische Fehlerinjektion}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Simulation von defekten CPU-Cores}{section.2.3}% 13
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Simulation von unzureichender Spannungsversorgung}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.3}{2.3.3 Manipulation der Taktfrequenz}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Manipulation der Speicherfrequenz}{section.2.3}% 16
+\BOOKMARK [1][-]{section.2.4}{2.4 Softwarebasiere Fehlerinjektion}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Fehlerinjektion in POSIX Bibliothek}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Fehlerinjektion im Linux Kernel}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.3}{2.4.3 Fehlerinjektion zur Laufzeit}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{2.5 Benchmarks}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Rodinia Benchmark Suite}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Eigene Benchmarks}{section.2.5}% 23
+\BOOKMARK [0][-]{chapter.3}{3 Durchf\374hrung der Messungen}{}% 24
+\BOOKMARK [1][-]{section.3.1}{3.1 Implementierung der Messungen}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{3.2 Analyse}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{3.3 Messergebnisse}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{4 Evaluation}{}% 28
+\BOOKMARK [1][-]{section.4.1}{4.1 Vergleich der Ausf\374hrungsmetriken}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{4.2 Indizierung von Fehlerklassen}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{4.3 Anwendbarkeit der symptombasierten Fehlererkennung}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{5 Anwendung der symptombasierten Fehlererkennung}{}% 32
+\BOOKMARK [1][-]{section.5.1}{5.1 Schematische Implementierung}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.2}{5.2 Anwendungsfall}{chapter.5}% 34
+\BOOKMARK [0][-]{chapter.6}{6 Zusammenfassung und Ausblick}{}% 35

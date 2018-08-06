@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Zielsetzung}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}State of the Art}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Material und Methoden}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Testplattform}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}HPC Cluster Server}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Multicore Computer}{3}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Metriken als Symptome}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Hardware Perfomance Counter}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Perfomance Application Programming Interface}{3}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Physikalische Fehlerinjektion}{3}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Simulation von defekten CPU-Cores}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Simulation von unzureichender Spannungsversorgung}{4}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Manipulation der Taktfrequenz}{4}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Manipulation der Speicherfrequenz}{4}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Softwarebasiere Fehlerinjektion}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Fehlerinjektion in POSIX Bibliothek}{4}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Fehlerinjektion im Linux Kernel}{4}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Fehlerinjektion zur Laufzeit}{4}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Benchmarks}{4}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Rodinia Benchmark Suite}{5}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Eigene Benchmarks}{5}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}Durchf\IeC {\"u}hrung der Messungen}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Implementierung der Messungen}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Analyse}{7}{section.3.2}
+\contentsline {section}{\numberline {3.3}Messergebnisse}{7}{section.3.3}
+\contentsline {chapter}{\numberline {4}Evaluation}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Vergleich der Ausf\IeC {\"u}hrungsmetriken}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Indizierung von Fehlerklassen}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Anwendbarkeit der symptombasierten Fehlererkennung}{9}{section.4.3}
+\contentsline {chapter}{\numberline {5}Anwendung der symptombasierten Fehlererkennung}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Schematische Implementierung}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Anwendungsfall}{11}{section.5.2}
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{13}{chapter.6}
