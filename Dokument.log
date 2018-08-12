@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.5)  6 AUG 2018 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.5)  12 AUG 2018 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,23 +1166,23 @@ LaTeX Info: Redefining \nameref on input line 74.
 \KIT@frameheight=\skip70
 \KIT@framebottom=\skip71
 \KIT@borderbottom=\skip72
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 86.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 88.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
@@ -1215,7 +1215,19 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 
 ] [4
 
-] (./Dokument.lof)
+] (./Dokument.lof
+Overfull \hbox (141.05478pt too wide) in paragraph at lines 3--3
+ [][] [][]\OT1/ptm/m/n/12 Intel IA32PERFEVTSELxMSRs (https://software.intel.com
+/sites/default/files/managed/39/c5/325462- 
+ []
+
+
+Overfull \hbox (66.92029pt too wide) in paragraph at lines 4--4
+ [][] [][]\OT1/ptm/m/n/12 https://www.inf.ethz.ch/personal/markusp/teaching/263
+-2300-ETH-spring13/slides/11- 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `Dokument.lof'.
 
@@ -1256,110 +1268,228 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 	\include{Motivation}
+l.124 	\include{Motivation}
                             [2]
 \openout2 = `Material.aux'.
 
  (./Material.tex
 chapter 2.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 7.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \subsection
-                {Simulation von unzureichender Spannungsversorgung} [3
+l.29 Z
+      um einen die Perfomance Event Select Registers [3
 
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
- been already used, duplicate ignored
+]
+<MSR.png, id=259, 1415.2875pt x 577.15625pt>
+File: MSR.png Graphic file (type png)
+<use MSR.png>
+Package pdftex.def Info: MSR.png  used on input line 36.
+(pdftex.def)             Requested size: 341.43442pt x 139.23366pt.
+
+Overfull \hbox (140.52629pt too wide) in paragraph at lines 37--37
+[][][]\OT1/ptm/m/n/12 Intel IA32PERFEVTSELxMSRs (https://software.intel.com/sit
+es/default/files/managed/39/c5/325462-
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 44.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+<EvoHPC.png, id=261, 1142.2675pt x 603.25375pt>
+File: EvoHPC.png Graphic file (type png)
+<use EvoHPC.png>
+Package pdftex.def Info: EvoHPC.png  used on input line 54.
+(pdftex.def)             Requested size: 341.43442pt x 180.31476pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[][][]\OT1/ptm/m/n/12 https://www.inf.ethz.ch/personal/markusp/teaching/263-230
+0-ETH-
+ []
+
+<graphic/Code.png, id=264, 400.49625pt x 68.255pt>
+File: graphic/Code.png Graphic file (type png)
+<use graphic/Code.png>
+Package pdftex.def Info: graphic/Code.png  used on input line 70.
+(pdftex.def)             Requested size: 341.43442pt x 58.19302pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \subsection
-                {Eigene Benchmarks} [4])pdfTeX warning (ext4): destination with
- the same identifier (name{page.5}) has been already used, duplicate ignored
+l.82 \subsection
+                {Perfomance Application Programming Interface} [4 <./MSR.png>]p
+dfTeX warning (ext4): destination with the same identifier (name{page.5}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 	\include{Material}
-                          [5]
+l.105 
+       [5 <./EvoHPC.png> <./graphic/Code.png>]pdfTeX warning (ext4): destinatio
+n with the same identifier (name{page.6}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.128 \subsection
+                 {Fehlerinjektion zur Laufzeit} [6]) [7]
 \openout2 = `Messungen.aux'.
 
- (./Messungen.texpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Durchführung der Messungen} [6
+ (./Messungen.tex
+[8
 
 
 
 ]
 chapter 3.
-) [7]
+) [9]
 \openout2 = `Evaluation.aux'.
 
- (./Evaluation.tex [8
+ (./Evaluation.tex [10
 
 
 
 ]
 chapter 4.
-) [9]
+) [11]
 \openout2 = `Anwendung.aux'.
 
- (./Anwendung.tex [10
+ (./Anwendung.tex [12
 
 
 
 ]
 chapter 5.
-) [11]
+) [13]
 \openout2 = `Ausblick.aux'.
 
- (./Ausblick.tex [12
+ (./Ausblick.tex [14
 
 
 
 ]
 chapter 6.
-) [13] (./Dokument.bbl [14
+) [15] (./Dokument.bbl [16
 
 
 ]
 
-LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
-               before end of `thebibliography' environment on input line 10.
+Class scrreprt Warning: deprecated old font command `\rm' used.
+(scrreprt)              You should note, that since 1994 LaTeX2e provides a
+(scrreprt)              new font selection scheme called NFSS2 with several
+(scrreprt)              new, combinable font commands. New KOMA-Script classes
+(scrreprt)              defined the old font commands like `\rm' only for
+(scrreprt)              compatibility with LaTeX 2.09 document styles of
+(scrreprt)              Script 2.0. These commands are deprecated and
+(scrreprt)              undocumented at least since 2003. Since 2013,
+(scrreprt)              KOMA-Script classes warned about soon removement of
+(scrreprt)              these deprecated commands. Now, after two decades of
+(scrreprt)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrreprt)              not work any longer. If loading a package results in
+(scrreprt)              this message you should contact the author of that
+(scrreprt)              package and ask him to replace the depracted font
+(scrreprt)              command `\rm', e.g., by `\normalfont \rmfamily '.
+(scrreprt)              Otherwise you should reconfigure or replace the
+(scrreprt)              package. If you have used the old font command
+(scrreprt)              `\rm' yourself you should replace it, e.g., by
+(scrreprt)              `\normalfont \rmfamily ' on input line 13.
 
-) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+
+Class scrreprt Warning: deprecated old font command `\rm' used.
+(scrreprt)              You should note, that since 1994 LaTeX2e provides a
+(scrreprt)              new font selection scheme called NFSS2 with several
+(scrreprt)              new, combinable font commands. New KOMA-Script classes
+(scrreprt)              defined the old font commands like `\rm' only for
+(scrreprt)              compatibility with LaTeX 2.09 document styles of
+(scrreprt)              Script 2.0. These commands are deprecated and
+(scrreprt)              undocumented at least since 2003. Since 2013,
+(scrreprt)              KOMA-Script classes warned about soon removement of
+(scrreprt)              these deprecated commands. Now, after two decades of
+(scrreprt)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrreprt)              not work any longer. If loading a package results in
+(scrreprt)              this message you should contact the author of that
+(scrreprt)              package and ask him to replace the depracted font
+(scrreprt)              command `\rm', e.g., by `\normalfont \rmfamily '.
+(scrreprt)              Otherwise you should reconfigure or replace the
+(scrreprt)              package. If you have used the old font command
+(scrreprt)              `\rm' yourself you should replace it, e.g., by
+(scrreprt)              `\normalfont \rmfamily ' on input line 20.
+
+
+Class scrreprt Warning: deprecated old font command `\rm' used.
+(scrreprt)              You should note, that since 1994 LaTeX2e provides a
+(scrreprt)              new font selection scheme called NFSS2 with several
+(scrreprt)              new, combinable font commands. New KOMA-Script classes
+(scrreprt)              defined the old font commands like `\rm' only for
+(scrreprt)              compatibility with LaTeX 2.09 document styles of
+(scrreprt)              Script 2.0. These commands are deprecated and
+(scrreprt)              undocumented at least since 2003. Since 2013,
+(scrreprt)              KOMA-Script classes warned about soon removement of
+(scrreprt)              these deprecated commands. Now, after two decades of
+(scrreprt)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrreprt)              not work any longer. If loading a package results in
+(scrreprt)              this message you should contact the author of that
+(scrreprt)              package and ask him to replace the depracted font
+(scrreprt)              command `\rm', e.g., by `\normalfont \rmfamily '.
+(scrreprt)              Otherwise you should reconfigure or replace the
+(scrreprt)              package. If you have used the old font command
+(scrreprt)              `\rm' yourself you should replace it, e.g., by
+(scrreprt)              `\normalfont \rmfamily ' on input line 26.
+
+
+Class scrreprt Warning: deprecated old font command `\rm' used.
+(scrreprt)              You should note, that since 1994 LaTeX2e provides a
+(scrreprt)              new font selection scheme called NFSS2 with several
+(scrreprt)              new, combinable font commands. New KOMA-Script classes
+(scrreprt)              defined the old font commands like `\rm' only for
+(scrreprt)              compatibility with LaTeX 2.09 document styles of
+(scrreprt)              Script 2.0. These commands are deprecated and
+(scrreprt)              undocumented at least since 2003. Since 2013,
+(scrreprt)              KOMA-Script classes warned about soon removement of
+(scrreprt)              these deprecated commands. Now, after two decades of
+(scrreprt)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrreprt)              not work any longer. If loading a package results in
+(scrreprt)              this message you should contact the author of that
+(scrreprt)              package and ask him to replace the depracted font
+(scrreprt)              command `\rm', e.g., by `\normalfont \rmfamily '.
+(scrreprt)              Otherwise you should reconfigure or replace the
+(scrreprt)              package. If you have used the old font command
+(scrreprt)              `\rm' yourself you should replace it, e.g., by
+(scrreprt)              `\normalfont \rmfamily ' on input line 32.
+
+) [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
  (./Dokument.aux (./Abstract.aux) (./Motivation.aux) (./Material.aux)
 (./Messungen.aux) (./Evaluation.aux) (./Anwendung.aux) (./Ausblick.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 161.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 161.
 Package rerunfilecheck Info: File `Dokument.out' has not changed.
-(rerunfilecheck)             Checksum: 7942533F7FCFD7B6806FBB9E63118806;2686.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+(rerunfilecheck)             Checksum: F28C86C3C824B45CC7C8DA652D7DE5DD;2660.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
  ) 
 Here is how much of TeX's memory you used:
- 20902 strings out of 494871
- 382136 string characters out of 6178383
- 536733 words of memory out of 5000000
- 23749 multiletter control sequences out of 15000+600000
- 30631 words of font info for 68 fonts, out of 8000000 for 9000
+ 20959 strings out of 494871
+ 382882 string characters out of 6178383
+ 537205 words of memory out of 5000000
+ 23787 multiletter control sequences out of 15000+600000
+ 32822 words of font info for 71 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  73i,11n,66p,8819b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb>
-Output written on Dokument.pdf (27 pages, 65083 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Dokument.pdf (29 pages, 229742 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
